@@ -8,14 +8,45 @@ Awesome list of applications that extend the [Big Data Genomics](https://github.
 
 ## Table of Contents
 
-- [Category](#category)
-  - [Subcategory](#sub-category)
+- [Extending ADAM](#extending-adam)
+  - [Applications](#applications)
+  - [Examples](#examples)
+  - [Libraries](#libraries)
 
-## Category
 
-### Sub-category
+## Extending ADAM
 
-* [project-name](http://example.com/) - A short description ends with a period.
+### Applications
+
+* [Avocado](https://github.com/bigdatagenomics/avocado) - Avocado is a distributed
+  variant caller built on top of ADAM for germline and somatic calling.
+* [Cannoli](https://github.com/bigdatagenomics/cannoli) - ADAM
+  [Pipe](http://adam.readthedocs.io/en/latest/api/pipes/) API wrappers for bioinformatics
+  tools, (e.g.,
+  [BWA](https://github.com/lh3/bwa),
+  [bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml),
+  [FreeBayes](https://github.com/ekg/freebayes))
+* [DECA](https://github.com/bigdatagenomics/deca) - DECA is a reimplementation of the
+  XHMM copy number variant caller on top of ADAM.
+* [Gnocchi](https://github.com/bigdatagenomics/gnocchi) - Gnocchi provides primitives
+  for running GWAS/eQTL tests on large genotype/phenotype datasets using ADAM.
+* [Lime](https://github.com/bigdatagenomics/lime) - Lime provides a
+  parallel implementation of genomic set theoretic primitives using the ADAM
+  [region join](http://adam.readthedocs.io/en/latest/api/joins/) API.
+* [Mango](https://github.com/bigdatagenomics/mango) - Mango is a library for
+  visualizing large scale genomics data with interactive latencies.
+
+### Examples
+
+* [adam-commands](https://github.com/heuermh/adam-commands) - External commands in
+  Java and Scala for ADAM.
+* [adam-examples](https://github.com/heuermh/adam-examples) - Examples in Java
+  and Scala for ADAM.
+
+### Libraries
+
+* [gfa-adam](https://github.com/heuermh/gfa-adam) - [Graphical Fragment Assembly
+  (GFA)](https://github.com/GFA-spec/GFA-spec) support for ADAM.
 
 
 ## License
