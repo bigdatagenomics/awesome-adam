@@ -47,7 +47,7 @@ Awesome list of applications that extend the [Big Data Genomics](https://github.
 
 * [adam-explorer](https://github.com/heuermh/adam-explorer) - Interactive explorer
   for ADAM genomics data models.
-* [biojava-adam](https://github.com/heuermh/biojava-adam) - Biojava and ADAM integration,
+* [biojava-adam](https://github.com/biojava/biojava-adam) - Biojava and ADAM integration,
   including support for reading Genbank DNA and Protein sequences.
 * [gfa-adam](https://github.com/heuermh/gfa-adam) - [Graphical Fragment Assembly
   (GFA)](https://github.com/GFA-spec/GFA-spec) support for ADAM.
